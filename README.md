@@ -32,17 +32,17 @@ After generating all CSVs, the final script loads the data in the correct depend
 ## Metabase Dashboard Access
 The visualization layer is organized into two primary user experiences.
 
-  1. Executive Dashboard
+  1. Executive Dashboard (http://localhost:3000/public/dashboard/656de9bf-22ab-4da2-9b5a-aac168fb8bfa) 
   - Description: This is the top-level access point, containing the following two tabs:
   - A. Strategic Overview (C-Level Summary): This tab delivers high-level financial KPIs and long-term strategic insights (Volume, Commission, Pricing Trends).
   - B. Operational Deep Dive (Manager/COO View): This tab provides process efficiency and resource allocation metrics, including funnel conversion and agent workload analysis.
 
   2. Analyst Workbench (Technical Views Collection)
-  - A. Agent Activity
-  - B. Client Overview
-  - C. Offer & Listing Activity
-  - D. Property Distribution Activity
-  - E. User Activity Log
+  - A. Agent Activity (http://localhost:3000/public/dashboard/ce10209a-0c53-46b9-8ea0-832846d197ba) 
+  - B. Client Overview (http://localhost:3000/public/dashboard/10527506-e68e-4ea0-87ac-1110149ff1d8) 
+  - C. Offer & Listing Activity (http://localhost:3000/public/dashboard/59b51290-6fd0-41f1-ab62-afa576bc50e4) 
+  - D. Property Distribution Activity (http://localhost:3000/public/dashboard/50fa5a10-5071-40ba-a926-9620fba60853) 
+  - E. User Activity Log (http://localhost:3000/public/dashboard/3d8c8442-0f12-4a04-9b92-1b827ad6c6ee)
 
 ## 10 Analytical Procedures
 The file 10 analytical procedures.sql contains the following complex queries, demonstrating proficiency by utilizing multi-table joins, JSON parsing, and conditional aggregation:
