@@ -13,7 +13,7 @@ B. Run Schema:
   1. Execute the entire contents of final_core_schema.sql against the new database.
      This creates the realestate schema, 15+ tables, foreign keys, triggers, and the two analytical views (v_agent_quarterly_performance and v_property_margin_candidates)."
 
-The conceptual and logical database design is detailed in the attached Entity Relationship Diagram: [ERD - Final Schema.pdf](ERD - Final Schema.pdf)
+The conceptual and logical database design is detailed in the attached Entity Relationship Diagram: [ERD - Final Schema.pdf]
 
 ## Synthetic Data Generation Pipeline
 The data loading requires following a strict dependency order to satisfy foreign key constraints. This pipeline generates all transactional, personnel, and property data.
